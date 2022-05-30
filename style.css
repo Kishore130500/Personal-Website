@@ -20,7 +20,15 @@ body{
 
   height: 350px;
 }
-
+.bg-clr-red{
+  background-color: #bc4123;
+}
+.bg-clr-blue{
+  background-color: #0b172a;
+}
+.bg-clr-lblue{
+  background-color: #463940a1;
+}
 .border-5 {
   border-width:7px !important;
 }
@@ -32,6 +40,10 @@ body{
 .bd-clr-red{
   border-color: #bc4123 !important;
 
+}
+
+.btn-clr{
+  background-color: #bc4123 ;
 }
 
 .quote-card {
@@ -118,4 +130,8 @@ body{
 }
 .quote-card.yellow-card:before, .quote-card.yellow-card:after {
   color: #FBC02D;
+}
+
+.btn{
+
 }

@@ -177,3 +177,17 @@ body {
 
 
 <span ><span style="font-size:30px;">Contact Me</span></span>
+
+
+function toggle(ele) {
+  var cont = document.getElementById('cont');
+  if (cont.style.display == 'block') {
+      cont.style.display = 'none';
+
+      document.getElementById(ele.id).value = 'Class Xth';
+  }
+  else {
+      cont.style.display = 'block';
+      document.getElementById(ele.id).value = 'Hide Details';
+  }
+}

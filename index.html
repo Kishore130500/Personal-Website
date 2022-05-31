@@ -26,7 +26,7 @@
                 <a class="nav-link text-muted" href="#">Contact</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-muted" href="#">Social</a>
+                <a class="nav-link text-muted" href="#footer">Social</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link disabled" href="#"></a>
@@ -82,9 +82,9 @@
             <div class="container-fluid mt-3">
               <div>
                 <p>
-                  <input type="button" value="Class X th Standard" class="btn-block btn-clr text-white" id="bt1" onclick="toggle(this)">
+                  <input type="button" value="X th Grade" class="btn-block btn-clr text-left font-weight-bold text-white border-3" id="bt1" onclick="toggle1(this)">
                 </p>
-                <div style="border:solid 1px #ddd; padding:10px; display:none;" id="cont">
+                <div style="border:solid 1px #ddd; padding:10px; display:none;" id="cont1">
                   <div>
                       <label>Name:</label>
                       <div><input id="name" name="yourname" /></div>
@@ -101,9 +101,9 @@
 
 
                 <p>
-                  <input type="button" value="Class XII th Standard" class="btn-block btn-clr text-white" id="bt2" onclick="toggle(this)">
+                  <input type="button" value="XII th Grade" class="btn-block btn-clr text-white text-left font-weight-bold" id="bt2" onclick="toggle2(this)">
                 </p>
-                <div style="border:solid 1px #ddd; padding:10px; display:none;" id="cont">
+                <div style="border:solid 1px #ddd; padding:10px; display:none;" id="cont2">
                   <div>
                       <label>Name:</label>
                       <div><input id="name" name="yourname" /></div>
@@ -120,9 +120,9 @@
 
             
         <p>
-          <input type="button" value="Class Xth" class="btn-block btn-clr text-white" id="bt3" onclick="toggle(this)">
+          <input type="button" value="B Tech." class="btn-block btn-clr text-white text-left font-weight-bold" id="bt3" onclick="toggle3(this)">
         </p>
-        <div style="border:solid 1px #ddd; padding:10px; display:none;" id="cont">
+        <div style="border:solid 1px #ddd; padding:10px; display:none;" id="cont3">
           <div>
               <label>Name:</label>
               <div><input id="name" name="yourname" /></div>
@@ -146,7 +146,7 @@
     
 
 
-<div class="mt-5 border-top">
+<div class="mt-5 border-top" id="footer">
   <footer class="bg-clr-blue text-center text-white">
     <!-- Grid container -->
     <div class="container p-4 pb-0">
@@ -189,18 +189,44 @@
     <!-- Copyright -->
     <div class="text-center p-3" style="background-color: #463940a1 ">
       © 2020 Copyright:
-      <a class="text-white" href="https://mdbootstrap.com/">Kishore Chandran</a>
+      <a class="text-white" href="#">Kishore Chandran</a>
     </div>
     <!-- Copyright -->
   </footer>
 </div>
     <script>
-      function toggle(ele) {
-          var cont = document.getElementById('cont');
+      function toggle1(ele) {
+          var cont = document.getElementById('cont1');
           if (cont.style.display == 'block') {
               cont.style.display = 'none';
   
-              document.getElementById(ele.id).value = 'Class Xth';
+              document.getElementById(ele.id).value = 'Xth Grade';
+          }
+          else {
+              cont.style.display = 'block';
+              document.getElementById(ele.id).value = 'Hide Details';
+          }
+      }
+
+      function toggle2(ele) {
+          var cont = document.getElementById('cont2');
+          if (cont.style.display == 'block') {
+              cont.style.display = 'none';
+  
+              document.getElementById(ele.id).value = 'XII th Grade';
+          }
+          else {
+              cont.style.display = 'block';
+              document.getElementById(ele.id).value = 'Hide Details';
+          }
+      }
+
+      function toggle3(ele) {
+          var cont = document.getElementById('cont3');
+          if (cont.style.display == 'block') {
+              cont.style.display = 'none';
+  
+              document.getElementById(ele.id).value = 'Btech.';
           }
           else {
               cont.style.display = 'block';

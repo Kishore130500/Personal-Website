@@ -43,7 +43,11 @@ body{
 }
 
 .btn-clr{
-  background-color: #bc4123 ;
+  background-color: #17a2b8 !important ;
+  height: 40px;
+  border-color: #ffffff;
+ 
+
 }
 
 .quote-card {

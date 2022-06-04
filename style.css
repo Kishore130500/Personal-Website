@@ -15,6 +15,9 @@ body{
   height: 60px;
   width: 100%;
 }
+.navtxt-clr{
+  color: #aae4f9!important;
+}
 
 .ib{
 
@@ -34,7 +37,7 @@ body{
 }
 .bd-clr
 {
-  border-color: #463940a1 !important;;
+  border-color: #463940a1 !important;
 }
 
 .bd-clr-red{

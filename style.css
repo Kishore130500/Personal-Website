@@ -45,7 +45,9 @@ body{
 .btn-clr{
   background-color: #17a2b8 !important ;
   height: 40px;
+  border-radius: 500px;
   border-color: #ffffff;
+  border-bottom-color: #ffffff;
  
 
 }
@@ -136,6 +138,7 @@ body{
   color: #FBC02D;
 }
 
-.btn{
-
+.carousel-inner > .carousel-item > img {
+  width:440px;
+  height:500px;
 }

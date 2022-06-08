@@ -55,6 +55,8 @@ body{
 
 }
 
+
+/* For Quote Card */
 .quote-card {
   background:transparent;
   color: #222222;
@@ -141,7 +143,15 @@ body{
   color: #FBC02D;
 }
 
+
+/*For Image Carousel*/
 .carousel-inner > .carousel-item > img {
   width:440px;
   height:500px;
+}
+
+
+/* For Border Color in Table*/
+table.table-bordered > tbody > tr > td{
+  border:2px solid white;
 }

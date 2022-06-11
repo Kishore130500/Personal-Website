@@ -19,9 +19,15 @@ body{
   color: #aae4f9!important;
 }
 
+
 .ib{
 
   height: 350px;
+}
+
+.blue-clr{
+color:#0b172a !important;
+
 }
 .bg-clr-red{
   background-color: #bc4123;
@@ -32,6 +38,8 @@ body{
 .bg-clr-lblue{
   background-color: #463940a1;
 }
+
+
 .border-5 {
   border-width:7px !important;
 }
@@ -39,7 +47,6 @@ body{
 {
   border-color: #463940a1 !important;
 }
-
 .bd-clr-red{
   border-color: #bc4123 !important;
 
@@ -51,8 +58,6 @@ body{
   border-radius: 500px;
   border-color: #ffffff;
   border-bottom-color: #ffffff;
- 
-
 }
 
 

@@ -1576,3 +1576,331 @@
   font-weight: bolder;
   top: 120px;
 }
+
+
+
+
+.go:nth-child(n+7) .circle .mask:before, .go:nth-child(n+7) .circle .mask:nth-child(2) {
+  -webkit-transform: rotate(110deg);
+  -ms-transform: rotate(110deg);
+  transform: rotate(110deg);
+}
+.go:nth-child(n+7) .inset .numbers {
+  width: 1936px;
+}
+.go:nth-child(n+7) .inset .numbers:before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  content: "JavaScript";
+  font-size: 22px;
+  font-weight: 800;
+  color: #455fae;
+  animation: go-5 2s ease-out;
+}
+@keyframes go-5 {
+  2.3255813953% {
+    content: "1%";
+  }
+  4.6511627907% {
+    content: "2%";
+  }
+  6.976744186% {
+    content: "3%";
+  }
+  9.3023255814% {
+    content: "4%";
+  }
+  11.6279069767% {
+    content: "5%";
+  }
+  13.9534883721% {
+    content: "6%";
+  }
+  16.2790697674% {
+    content: "7%";
+  }
+  18.6046511628% {
+    content: "8%";
+  }
+  20.9302325581% {
+    content: "9%";
+  }
+  23.2558139535% {
+    content: "10%";
+  }
+  25.5813953488% {
+    content: "11%";
+  }
+  27.9069767442% {
+    content: "12%";
+  }
+  30.2325581395% {
+    content: "13%";
+  }
+  32.5581395349% {
+    content: "14%";
+  }
+  34.8837209302% {
+    content: "15%";
+  }
+  37.2093023256% {
+    content: "16%";
+  }
+  39.5348837209% {
+    content: "17%";
+  }
+  41.8604651163% {
+    content: "18%";
+  }
+  44.1860465116% {
+    content: "19%";
+  }
+  46.511627907% {
+    content: "20%";
+  }
+  48.8372093023% {
+    content: "21%";
+  }
+  51.1627906977% {
+    content: "22%";
+  }
+  53.488372093% {
+    content: "23%";
+  }
+  55.8139534884% {
+    content: "24%";
+  }
+  58.1395348837% {
+    content: "25%";
+  }
+  60.4651162791% {
+    content: "26%";
+  }
+  62.7906976744% {
+    content: "27%";
+  }
+  65.1162790698% {
+    content: "28%";
+  }
+  67.4418604651% {
+    content: "29%";
+  }
+  69.7674418605% {
+    content: "30%";
+  }
+  72.0930232558% {
+    content: "31%";
+  }
+  74.4186046512% {
+    content: "32%";
+  }
+  76.7441860465% {
+    content: "33%";
+  }
+  79.0697674419% {
+    content: "34%";
+  }
+  81.3953488372% {
+    content: "37%";
+  }
+  83.7209302326% {
+    content: "40%";
+  }
+  86.0465116279% {
+    content: "46%";
+  }
+  88.3720930233% {
+    content: "53%";
+  }
+  90.6976744186% {
+    content: "59%";
+  }
+  93.023255814% {
+    content: "60%";
+  }
+  95.3488372093% {
+    content: "65%";
+  }
+  97.6744186047% {
+    content: "67%";
+  }
+  100% {
+    content: "72%";
+  }
+}
+.go:nth-child(n+7) .inset .numbers:after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  content: "JavaScript";
+  color: white;
+  font-weight: bolder;
+  top: 120px;
+}
+
+
+
+
+.go:nth-child(n+8) .circle .mask:before, .go:nth-child(n+8) .circle .mask:nth-child(2) {
+  -webkit-transform: rotate(110deg);
+  -ms-transform: rotate(110deg);
+  transform: rotate(110deg);
+}
+.go:nth-child(n+8) .inset .numbers {
+  width: 1936px;
+}
+.go:nth-child(n+8) .inset .numbers:before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  content: "Nodejs";
+  font-size: 22px;
+  font-weight: 800;
+  color: #455fae;
+  animation: go-5 2s ease-out;
+}
+@keyframes go-5 {
+  2.3255813953% {
+    content: "1%";
+  }
+  4.6511627907% {
+    content: "2%";
+  }
+  6.976744186% {
+    content: "3%";
+  }
+  9.3023255814% {
+    content: "4%";
+  }
+  11.6279069767% {
+    content: "5%";
+  }
+  13.9534883721% {
+    content: "6%";
+  }
+  16.2790697674% {
+    content: "7%";
+  }
+  18.6046511628% {
+    content: "8%";
+  }
+  20.9302325581% {
+    content: "9%";
+  }
+  23.2558139535% {
+    content: "10%";
+  }
+  25.5813953488% {
+    content: "11%";
+  }
+  27.9069767442% {
+    content: "12%";
+  }
+  30.2325581395% {
+    content: "13%";
+  }
+  32.5581395349% {
+    content: "14%";
+  }
+  34.8837209302% {
+    content: "15%";
+  }
+  37.2093023256% {
+    content: "16%";
+  }
+  39.5348837209% {
+    content: "17%";
+  }
+  41.8604651163% {
+    content: "18%";
+  }
+  44.1860465116% {
+    content: "19%";
+  }
+  46.511627907% {
+    content: "20%";
+  }
+  48.8372093023% {
+    content: "21%";
+  }
+  51.1627906977% {
+    content: "22%";
+  }
+  53.488372093% {
+    content: "23%";
+  }
+  55.8139534884% {
+    content: "24%";
+  }
+  58.1395348837% {
+    content: "25%";
+  }
+  60.4651162791% {
+    content: "26%";
+  }
+  62.7906976744% {
+    content: "27%";
+  }
+  65.1162790698% {
+    content: "28%";
+  }
+  67.4418604651% {
+    content: "29%";
+  }
+  69.7674418605% {
+    content: "30%";
+  }
+  72.0930232558% {
+    content: "31%";
+  }
+  74.4186046512% {
+    content: "32%";
+  }
+  76.7441860465% {
+    content: "33%";
+  }
+  79.0697674419% {
+    content: "34%";
+  }
+  81.3953488372% {
+    content: "37%";
+  }
+  83.7209302326% {
+    content: "40%";
+  }
+  86.0465116279% {
+    content: "46%";
+  }
+  88.3720930233% {
+    content: "53%";
+  }
+  90.6976744186% {
+    content: "59%";
+  }
+  93.023255814% {
+    content: "60%";
+  }
+  95.3488372093% {
+    content: "65%";
+  }
+  97.6744186047% {
+    content: "67%";
+  }
+  100% {
+    content: "72%";
+  }
+}
+.go:nth-child(n+8) .inset .numbers:after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  content: "Nodejs";
+  color: white;
+  font-weight: bolder;
+  top: 120px;
+}
